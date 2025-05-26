@@ -1,0 +1,4 @@
+# Update TI firmware version used for SA67 bootloader
+
+TI_SYSFW_VERSION = "cicd.scarthgap.202505111800"
+TI_LINUX_FW_SRCREV = "bffa52a1b8d3318ec86814047025e7c5edf7b7b0"
