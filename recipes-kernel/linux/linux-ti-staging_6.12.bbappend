@@ -1,6 +1,6 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
-SRC_URI += "file://0001-arm64-ti-add-sa67-device-tree-files.patch \
+SRC_URI += "file://k3-am67a-kontron-sa67.dts \
             file://k3-am67a-kontron-sa67-ads2.dtso \
             file://k3-am67a-kontron-sa67-ads2-rev-a-fixups.dtso \
             file://k3-am67a-kontron-sa67-lvds0-evervision-vgg644804.dtso \
