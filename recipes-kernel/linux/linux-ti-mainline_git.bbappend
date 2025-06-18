@@ -14,10 +14,3 @@ KERNEL_GIT_BRANCH = "branch=${BRANCH}"
 BRANCH = "master"
 SRCREV = "934f78dc484418751aff899dcdf0e6961529d65c"
 PV = "6.15.0+git"
-
-KERNEL_DEVICETREE += "ti/k3-am67a-kontron-sa67.dtb \
-                      ti/k3-am67a-kontron-sa67-ads2.dtbo \
-                      ti/k3-am67a-kontron-sa67-ads2-rev-a-fixups.dtbo \
-                      ti/k3-am67a-kontron-sa67-lvds0-evervision-vgg644804.dtbo \
-                      ti/k3-am67a-kontron-sa67-lvds-auo-p238han01.dtbo"
-
