@@ -1,4 +1,4 @@
-meta-kontron-sa67
+meta-smarc-sam67
 
 Description
 -----------
@@ -32,6 +32,26 @@ are given in a separate configuration file.
 
 Building
 --------
+
+The meta-smarc-sam67 yocto layer cannot be built alone. Instead it is meant to
+be stored along with other layers in an openembedded layer framework before
+the Yocto BSP for the machines defined in this layer can be built. There is
+another repository available that manages download, configuration and build
+steps to create the full BSP with the desired artefacts, which can be cloned
+from https://github.com/kontron/yocto-smarc-sam67.git.
+
+The meta-smarc-sam67 layer adds 2 more machine configurations supporting the
+Kontron SMARC-sAM67 module.
+
+- sa67-ti: supports sa67 using TI's linux-ti-staging kernel and u-boot. The
+  linux-ti-staging kernel includes the latest hardware device support that
+  hasn't been merged upstream yet.
+- sa67-mainline: supports sa67 using TI's linux-ti-mainline kernel and u-boot
+  recipes. The linux-ti-mainline kernel recipe has been extended to use the
+  Kontron linux-smarc-sam67 repository which is a fork from upstream linux
+  with patches to support the sa67 that have not been merged upstream yet.
+  Compared with TI's linux-ti-staging kernel, the Kontron fork supports more
+  hardware specifics of the sa67 module.
 
 Installation
 ------------
