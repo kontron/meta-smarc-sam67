@@ -12,5 +12,5 @@ KERNEL_GIT_PROTOCOL = "https"
 KERNEL_GIT_BRANCH = "branch=${BRANCH}"
 
 BRANCH = "master"
-SRCREV = "039265ca51f9ecc1404cd05dff6b6c2802bd6301"
+SRCREV = "da84c244c2e77fe66da38e8b7b0c438bbc04b9a5"
 PV = "6.15.0+git"
