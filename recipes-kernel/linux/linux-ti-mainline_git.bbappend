@@ -13,4 +13,8 @@ KERNEL_GIT_BRANCH = "branch=${BRANCH}"
 
 BRANCH = "master"
 SRCREV = "da84c244c2e77fe66da38e8b7b0c438bbc04b9a5"
-PV = "6.15.0+git"
+PV = "6.16.0+git"
+
+KERNEL_REPRODUCIBILITY_PATCHES = " \
+    file://0001-perf-python-Fix-compile-for-32bit-platforms.patch \
+"
