@@ -16,8 +16,8 @@ KERNEL_GIT_PROTOCOL = "https"
 KERNEL_GIT_BRANCH = "branch=${BRANCH}"
 
 BRANCH = "master"
-SRCREV = "e1120054271401778f36fa768b14ede247b25320"
-PV = "6.17.0+git"
+SRCREV = "439cfa9650c663435a765144255f526cd7c44394"
+PV = "6.19.0+git"
 
 KERNEL_REPRODUCIBILITY_PATCHES = " \
     file://0001-perf-python-Fix-compile-for-32bit-platforms.patch \
