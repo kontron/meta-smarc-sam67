@@ -18,7 +18,7 @@ On the other hand, this code path in `sg_advance` requires that
 
 See also: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f8f03eb5f0f91fddc9bb8563c7e82bd7d3ba1dd0
           https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ce00897b94bc5c62fab962625efcf1ab824d3688
-
+Upstream-Status: Backport [https://github.com/cryptodev-linux/cryptodev-linux/commit/08644db02d43478f802755903212f5ee506af73b]
 Signed-off-by: Joan Bruguera Micó <joanbrugueram@gmail.com>
 ---
  util.c | 5 +++++
