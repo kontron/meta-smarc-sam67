@@ -6,3 +6,5 @@ PR:append = "_smarc_sa67_0"
 
 IMAGE_INSTALL:append = " linux-firmware-powervr"
 
+# MCU flash utilities
+IMAGE_INSTALL:append = " mspm0flash"
