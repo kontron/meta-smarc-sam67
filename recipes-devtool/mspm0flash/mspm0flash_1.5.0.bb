@@ -10,7 +10,7 @@ SRC_URI = " \
 	file://sa67-mainline-ctrl \
 "
 
-SRCREV = "2ed77d9e213f6d76d5720f00d9dbbae1370dbd88"
+SRCREV = "60593696a35bc310d43b5b293dd1b70dde51b455"
 LIC_FILES_CHKSUM = "file://COPYING;md5=71898da0bcc7c1bf11d5df63ed79104b"
 
 TARGET_CC_ARCH += "${LDFLAGS}"
